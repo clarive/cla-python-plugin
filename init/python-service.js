@@ -21,6 +21,8 @@ reg.register('service.python.run', {
         var remoteTempPath = config.remoteTempPath;
         var isJob = ctx.stash("job_dir");
         var pythonPath = config.pythonPath;
+        var fileName = "clarive-python-code-" + Date.now() + ".py";
+
 
         function remoteCommand(params, command, server, errors) {
             var output = reg.launch('service.scripting.remote', {
@@ -55,10 +57,10 @@ reg.register('service.python.run', {
 
 
         if (isJob) {
-            filePath = path.join(isJob, "python-code.py");
+            filePath = path.join(isJob, fileName);
             fs.createFile(filePath, config.code);
         } else {
-            filePath = path.join(CLARIVE_TEMP, "python-code.py");
+            filePath = path.join(CLARIVE_TEMP, fileName);
             fs.createFile(filePath, config.code);
         }
 
@@ -72,7 +74,7 @@ reg.register('service.python.run', {
         }
 
         shipFiles(server, filePath, remoteTempPath);
-        var remoteFilePath = path.join(remoteTempPath, "python-code.py");
+        var remoteFilePath = path.join(remoteTempPath, fileName);
         var pythonRemoteCommand = pythonCommand + pythonParams + " " + remoteFilePath;
 
         log.info(_("Executing python code"));
