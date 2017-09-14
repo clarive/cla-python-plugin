@@ -1,0 +1,43 @@
+#: init/python-service.js
+msgid "Run Python Code"
+msgstr "Ejecutar Código de Python"
+
+#: init/python-service.js
+msgid "Python execute code"
+msgstr "Ejecución de código Python"
+
+#: init/python-service.js
+msgid "Python ship file"
+msgstr "Envío de archivo Python"
+
+#: init/python-service.js
+msgid "Executing python code"
+msgstr "Ejecutando código de Python"
+
+#: init/python-service.js
+msgid "Python remove file"
+msgstr "Eliminando archivo de Python"
+
+#: init/python-service.js
+msgid "Python code executed: "
+msgstr "Código de Python ejecutado: "
+
+#: public/form/python-form.js
+msgid "Server"
+msgstr "Servidor"
+
+#: public/form/python-form.js
+msgid "Python path"
+msgstr "Ruta de Python"
+
+#: public/form/python-form.js
+msgid "Python parameters"
+msgstr "Parámetros de Python"
+
+#: public/form/python-form.js
+msgid "Code Editor"
+msgstr "Editor de código"
+
+#: public/form/python-form.js
+msgid "Remote temp path"
+msgstr "Ruta temporal remota"
