@@ -1,0 +1,9 @@
+name: Clarive Python Plugin
+description: The Python plugin will allow you to execute a Python code on the server of your choice in Clarive and to see its result.
+version: 1.0
+icon: https://github.com/clarive/cla-python-plugin/public/icon/python.svg
+url: https://github.com/clarive/cla-python-plugin
+requires:
+  - clarive_version: 6.8 <= version
+dependencies:
+  - cla-python-plugin
