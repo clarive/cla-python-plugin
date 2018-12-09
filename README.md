@@ -1,6 +1,6 @@
 # Python Plugin
 
-<img src="https://cdn.rawgit.com/clarive/cla-python-plugin/master/public/icon/python.svg?sanitize=true" alt="Python Plugin" title="Python Plugin" width="120" height="120">
+<img src="https://cdn.jsdelivr.net/gh/clarive/cla-python-plugin@master/public/icon/python.svg?sanitize=true" alt="Python Plugin" title="Python Plugin" width="120" height="120">
 
 The Python plugin will allow you to execute a Python code on the server of your choice in Clarive and to see its result.
 
